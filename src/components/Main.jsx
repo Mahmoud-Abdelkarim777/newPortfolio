@@ -781,11 +781,6 @@ export default function Main() {
                     />
                     <input type="hidden" name="_captcha" value="false" />
                     <input
-                      type="hidden"
-                      name="_autoresponse"
-                      value="new message"
-                    />
-                    <input
                       type="text"
                       id="name"
                       name="name"
