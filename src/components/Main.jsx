@@ -716,6 +716,7 @@ export default function Main() {
           </div>
         </section>
         {/* end Projects section  */}
+        
         {/* start Contact me section  */}
         <section id="contact" className="bg-secondary py-16">
           <div className="container px-3 mx-auto text-center">
@@ -833,6 +834,40 @@ export default function Main() {
           </div>
         </section>
         {/* end Contact me section  */}
+        <div className="border border-main w-72 p-3 rounded-3xl bg-secondary opacity-70 fixed z-20 bottom-3 left-1/2 -translate-x-1/2">
+          <ul className="flex justify-around items-center">
+            <li>
+              <a href="#home" className="active">
+                <i className="fa-solid fa-house font-bold text-lg text-white hover:text-redDark"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#about" className="active">
+                <i className="fa-solid fa-user-large font-bold text-lg text-white hover:text-redDark"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#skills" className="active">
+                <i className="fa-solid fa-layer-group font-bold text-lg text-white hover:text-redDark"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#services" className="active">
+                <i className="fa-solid fa-taxi font-bold text-lg text-white hover:text-redDark"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#projects" className="active">
+                <i className="fa-solid fa-book font-bold text-lg text-white hover:text-redDark"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#contact" className="active">
+                <i className="fa-solid fa-address-card font-bold text-lg text-white hover:text-redDark"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
       </main>
       {/* start Footer section  */}
       <footer className="w-full bg-primary p-2 pt-10 fade-in-up-footer animate-footer animate-delay">
@@ -922,40 +957,7 @@ export default function Main() {
             © 2024 Mahmoud. All Rights Reserved.
           </p>
         </div>
-        <div className="border border-main w-72 p-3 rounded-3xl bg-secondary opacity-70 fixed bottom-3 left-1/2 -translate-x-1/2">
-          <ul className="flex justify-around items-center">
-            <li>
-              <a href="#home" className="active">
-                <i className="fa-solid fa-house font-bold text-lg text-white hover:text-redDark"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#about" className="active">
-                <i className="fa-solid fa-user-large font-bold text-lg text-white hover:text-redDark"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#skills" className="active">
-                <i className="fa-solid fa-layer-group font-bold text-lg text-white hover:text-redDark"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#services" className="active">
-                <i className="fa-solid fa-taxi font-bold text-lg text-white hover:text-redDark"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#projects" className="active">
-                <i className="fa-solid fa-book font-bold text-lg text-white hover:text-redDark"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#contact" className="active">
-                <i className="fa-solid fa-address-card font-bold text-lg text-white hover:text-redDark"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
+        
       </footer>
       {/* end Footer section  */}
     </div>
