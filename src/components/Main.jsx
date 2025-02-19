@@ -771,11 +771,6 @@ export default function Main() {
                   >
                     <input
                       type="hidden"
-                      name="_next"
-                      value="https://yourdomain.co/thanks.html"
-                    />
-                    <input
-                      type="hidden"
                       name="_subject"
                       value="New submission!"
                     />
