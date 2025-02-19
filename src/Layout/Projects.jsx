@@ -4,7 +4,7 @@ export default function Projects() {
   return (
     <>
       <div className="content mt-4">
-        <div className="text-center">
+        <div className="flex flex-wrap items-center justify-center ">
           <NavLink
             to="css"
             className={({ isActive }) =>

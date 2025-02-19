@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from "react";
 import { motion, useAnimationFrame } from "framer-motion";
 import photo from "../assets/hero-bg.webp";
 import AppProjects from "./AppProjects";
-import '../index.css'
+import "../index.css";
 
 // Import Swiper core and required modules
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -66,7 +66,7 @@ export default function Main() {
   };
 
   return (
-    <div>
+    <div className="">
       {/* start header  */}
       <header className=" mx-auto flex shadow-[0px_4px_16px_rgba(17,_17,_26,_0.1),_0px_8px_32px_rgba(17,_17,_26,_0.05)] py-4   bg-primary font-[sans-serif] min-h-[75px] tracking-wide relative z-50">
         <div className="container mx-auto px-3 flex flex-wrap items-center gap-5 ">
@@ -285,13 +285,22 @@ export default function Main() {
             </div>
             {/*  Framer Motion */}
             <div className="flex flex-row md:flex-col gap-8 md:gap-2 justify-center mt-4">
-              <a href="https://github.com/Mahmoud-Abdelkarim777" className="swinging-animation-btn">
+              <a
+                href="https://github.com/Mahmoud-Abdelkarim777"
+                className="swinging-animation-btn"
+              >
                 <i className="fa-brands fa-github text-red-400 text-2xl"></i>
               </a>
-              <a href="https://www.linkedin.com/in/mahmoud-abdelkarim-%F0%9F%87%B5%F0%9F%87%B8-487452229/" className="zoom-animation">
+              <a
+                href="https://www.linkedin.com/in/mahmoud-abdelkarim-%F0%9F%87%B5%F0%9F%87%B8-487452229/"
+                className="zoom-animation"
+              >
                 <i className="fa-brands fa-linkedin text-red-400 text-2xl"></i>
               </a>
-              <a href="mailto:mabdelkarimkhalaf777@gmail.com" className="swinging-animation-a">
+              <a
+                href="mailto:mabdelkarimkhalaf777@gmail.com"
+                className="swinging-animation-a"
+              >
                 <i className="fa-regular fa-envelope text-red-400 text-2xl"></i>
               </a>
             </div>
@@ -307,7 +316,9 @@ export default function Main() {
             after:text-6xl after:w-[320px] after:absolute after:bottom-10 after:left-1/2 after:-translate-x-1/2 
             after:opacity-5 after:text-white after:uppercase after:text-transparent after-text-stroke"
               >
-                <h1 className="text-4xl text-white font-semibold fade-in-up animate-delay animate-slide-up">About Me</h1>
+                <h1 className="text-4xl text-white font-semibold fade-in-up animate-delay animate-slide-up">
+                  About Me
+                </h1>
                 <p className="text-white text-lg font-semibold">Get To Know</p>
                 <p className="text-center flex justify-center bg-redDark h-1 w-[100px] mt-1"></p>
               </div>
@@ -333,7 +344,7 @@ export default function Main() {
                     href="#contact"
                     className="px-4 py-2 inline-block h-[40px] 
                   bg-btn hover:bg-white hover:text-btn text-white 
-                  font-semibold rounded-lg mt-8 hover:-translate-y-2 transition-all duration-500" 
+                  font-semibold rounded-lg mt-8 hover:-translate-y-2 transition-all duration-500"
                   >
                     Let&apos;s Talk
                   </a>
@@ -426,7 +437,9 @@ export default function Main() {
                 className="flex flex-col justify-center items-center after:content-['My-Skills'] 
             after:text-6xl after:w-[320px] after:absolute after:bottom-10 after:left-1/2 after:-translate-x-1/2 after:opacity-5 after:text-white after:uppercase after:text-transparent after-text-stroke"
               >
-                <h1 className="text-4xl text-white font-semibold fade-in-up animate-delay animate-slide-up">My Skills</h1>
+                <h1 className="text-4xl text-white font-semibold fade-in-up animate-delay animate-slide-up">
+                  My Skills
+                </h1>
                 <p className="text-white text-lg font-semibold">
                   What Skills I Have
                 </p>
@@ -619,7 +632,9 @@ export default function Main() {
                 className="flex flex-col justify-center items-center after:content-['Services'] 
             after:text-6xl after:w-[320px] after:absolute after:bottom-10 after:left-1/2 after:-translate-x-1/2 after:opacity-5 after:text-white after:uppercase after:text-transparent after-text-stroke"
               >
-                <h1 className="text-4xl text-white font-semibold fade-in-up animate-delay animate-slide-up">Services</h1>
+                <h1 className="text-4xl text-white font-semibold fade-in-up animate-delay animate-slide-up">
+                  Services
+                </h1>
                 <p className="text-white text-lg font-semibold">What I offer</p>
                 <p className="text-center flex justify-center bg-redDark h-1 w-[100px] mt-1"></p>
               </div>
@@ -675,7 +690,9 @@ export default function Main() {
                 className="flex flex-col justify-center items-center after:content-['Projects'] 
             after:text-6xl after:w-[320px] after:absolute after:bottom-10 after:left-1/2 after:-translate-x-1/2 after:opacity-5 after:text-white after:uppercase after:text-transparent after-text-stroke"
               >
-                <h1 className="text-4xl text-white font-semibold fade-in-up animate-delay animate-slide-up">Projects</h1>
+                <h1 className="text-4xl text-white font-semibold fade-in-up animate-delay animate-slide-up">
+                  Projects
+                </h1>
                 <p className="text-white text-lg font-semibold">
                   My Recent Work
                 </p>
