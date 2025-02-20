@@ -74,9 +74,6 @@
   transform: rotate(-90deg);
 }
 
-
-
-
 /*start Animation for tile */
 @keyframes slideUp {
   from {

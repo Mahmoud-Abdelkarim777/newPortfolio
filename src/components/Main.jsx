@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from "react";
 import { motion, useAnimationFrame } from "framer-motion";
 import photo from "../assets/hero-bg.webp";
 import AppProjects from "./AppProjects";
-import "../index.css";
+import AnimatedBackground from "../components/AnimatedBackground";
 
 // Import Swiper core and required modules
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -66,7 +66,8 @@ export default function Main() {
   };
 
   return (
-    <div className="">
+    <div>
+    <AnimatedBackground/>
       {/* start header  */}
       <header className=" mx-auto flex shadow-[0px_4px_16px_rgba(17,_17,_26,_0.1),_0px_8px_32px_rgba(17,_17,_26,_0.05)] py-4   bg-primary font-[sans-serif] min-h-[75px] tracking-wide relative z-50">
         <div className="container mx-auto px-3 flex flex-wrap items-center gap-5 ">
@@ -191,7 +192,7 @@ export default function Main() {
         </div>
       </header>
       {/* end header  */}
-      <main>
+      <main className="relative z-10" >
         {/* start hero section  */}
         <section
           id="home"
@@ -870,7 +871,7 @@ export default function Main() {
         </div>
       </main>
       {/* start Footer section  */}
-      <footer className="w-full bg-primary p-2 pt-10 fade-in-up-footer animate-footer animate-delay">
+      <footer className="relative z-10 w-full bg-primary p-2 pt-10 fade-in-up-footer animate-footer animate-delay">
         <div className="text-center">
           <p className="font-bold text-3xl my-5 cursor-pointer text-redDark">
             <span className="text-white hover:text-redDark ">MAHMOUD</span>.JS
@@ -957,7 +958,6 @@ export default function Main() {
             © 2024 Mahmoud. All Rights Reserved.
           </p>
         </div>
-        
       </footer>
       {/* end Footer section  */}
     </div>

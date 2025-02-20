@@ -9,7 +9,6 @@ export default {
     extend: {
       colors: {
         primary: '#011627',
-        // subprimary: 'rgb(2 132 199 / 0.7)',
         secondary: '#001e35',
         subSecondary: 'rgb(2 132 199 / 0.7)',
         btn: '#0284c7',
